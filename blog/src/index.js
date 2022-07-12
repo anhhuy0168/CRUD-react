@@ -5,7 +5,7 @@ const port = 5000
 
 app.use(morgan('combined'))
 app.get('/tin-tuc', (req, res) => {
-  res.send('Hello World!!!!!!!!!!!')
+  res.send('Hello World')
 })
 
 app.listen(port, () => {
